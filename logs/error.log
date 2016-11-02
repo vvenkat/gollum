@@ -1,0 +1,32 @@
+[2014-10-30 11:14:33.150] [ERROR] error - [ReferenceError: fs is not defined]
+ReferenceError: fs is not defined
+    at app.get.crossdomain.domain (/Users/vvenkat/src/gollum/Gollum.js:128:13)
+    at Layer.handle [as handle_request] (/Users/vvenkat/src/gollum/node_modules/express/lib/router/layer.js:76:5)
+    at next (/Users/vvenkat/src/gollum/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/Users/vvenkat/src/gollum/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/Users/vvenkat/src/gollum/node_modules/express/lib/router/layer.js:76:5)
+    at /Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:227:24
+    at param (/Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:324:14)
+    at param (/Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:340:14)
+    at param (/Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:340:14)
+    at Function.proto.process_params (/Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:384:3)
+[2014-10-30 11:18:32.379] [ERROR] error - [ReferenceError: Invalid left-hand side in assignment]
+ReferenceError: Invalid left-hand side in assignment
+    at /Users/vvenkat/src/gollum/util.js:48:7
+    at Object.oncomplete (fs.js:107:15)
+[2014-10-30 11:18:32.382] [ERROR] error - [ReferenceError: Invalid left-hand side in assignment]
+ReferenceError: Invalid left-hand side in assignment
+    at /Users/vvenkat/src/gollum/util.js:48:7
+    at Object.oncomplete (fs.js:107:15)
+[2014-10-30 15:10:34.530] [ERROR] error - { [Error] status: 404 }
+Error
+    at /Users/vvenkat/src/gollum/Gollum.js:158:16
+    at Layer.handle [as handle_request] (/Users/vvenkat/src/gollum/node_modules/express/lib/router/layer.js:76:5)
+    at next (/Users/vvenkat/src/gollum/node_modules/express/lib/router/route.js:100:13)
+    at Route.dispatch (/Users/vvenkat/src/gollum/node_modules/express/lib/router/route.js:81:3)
+    at Layer.handle [as handle_request] (/Users/vvenkat/src/gollum/node_modules/express/lib/router/layer.js:76:5)
+    at /Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:227:24
+    at Function.proto.process_params (/Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:305:12)
+    at /Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:221:12
+    at Function.match_layer (/Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:288:3)
+    at next (/Users/vvenkat/src/gollum/node_modules/express/lib/router/index.js:182:10)
